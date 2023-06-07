@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" type="module"></script>
+    <script src="./utils/fn.js" type="module"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <div class="dott-profil">
+          <img
+            src="https://images.pexels.com/photos/6234600/pexels-photo-6234600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Doctor: Bryan"
+          />
+          <p>Dott. Bryan</p>
+          <p>Medico di Base</p>
+        </div>
+        <div class="btn-contain">
+          <button id="completed" class="btn">Completati</button>
+          <button id="all" class="btn">Tutti</button>
+        </div>
+      </div>
+      <div class="app">
+        <div class="title-contain">
+          <h1 class="title-app">Appointment App</h1>
+        </div>
+        <div class="list-container">
+          <div class="false-contain">
+            <h3 class="list-name">Appuntamenti in attesa</h3>
+            <div class="false-list list-scroll"></div>
+          </div>
+          <div class="true-contain">
+            <h3 class="list-name">Appuntamenti già conclusi</h3>
+            <div class="true-list list-scroll"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
